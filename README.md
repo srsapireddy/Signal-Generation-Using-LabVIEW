@@ -35,10 +35,10 @@ This project shows a simple Frequency Modulation (FM) signal generated using Lab
 
 The experiment includes:
 
-* Message signal
-* Cosine carrier signal
-* Sine carrier signal
-* FM modulated signal
+- Message signal
+- Cosine carrier signal
+- Sine carrier signal
+- FM modulated signal
 
 ## Block Diagram
 
@@ -56,23 +56,5 @@ The FM signal can be written as:
 
 ```math
 s(t) = A_c \cos \left(2\pi f_c t + \beta \sin(2\pi f_m t)\right)
-```
 
-where:
 
-* `Ac` is the carrier amplitude
-* `fc` is the carrier frequency
-* `fm` is the message frequency
-* `β` is the modulation index
-
-In this LabVIEW design, the message signal and carrier signals are generated separately.
-The message signal controls the frequency variation of the carrier signal.
-The final FM waveform is displayed using a waveform graph.
-
-## Software Used
-
-* LabVIEW
-
-## Result
-
-The FM signal was successfully generated and displayed using LabVIEW.
