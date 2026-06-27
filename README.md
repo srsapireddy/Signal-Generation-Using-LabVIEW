@@ -12,11 +12,11 @@ The experiment includes:
 
 ## Block Diagram
 
-<img width="1696" height="894" alt="image" src="https://github.com/user-attachments/assets/f903a45d-a69e-4eab-9c8e-acef1a001071" />
+<img width="1696" height="894" alt="image" src="https://github.com/user-attachments/assets/f903a45d-a69e-4eab-9c8e-acef1a001071"/>
 
 ## Front Panel Output
 
-<img width="1585" height="827" alt="image" src="https://github.com/user-attachments/assets/7dbc7833-297c-4c0c-940e-49bf04b4351b" />
+<img width="1585" height="827" alt="image" src="https://github.com/user-attachments/assets/7dbc7833-297c-4c0c-940e-49bf04b4351b"/>
 
 ## Description
 
