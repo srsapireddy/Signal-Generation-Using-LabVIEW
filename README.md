@@ -1,11 +1,6 @@
 # Signal Generation Using LabVIEW
 
-This repository contains simple signal generation and modulation experiments using LabVIEW.
-
-The project includes:
-
-* Amplitude Modulation (AM)
-* Frequency Modulation (FM)
+This repository contains simple AM and FM signal generation experiments using LabVIEW.
 
 ---
 
@@ -15,10 +10,10 @@ This project shows a simple Amplitude Modulation (AM) signal generated using Lab
 
 The experiment includes:
 
-* Message signal
-* Carrier signal
-* AM modulated signal
-* Filtered output signal
+- Message signal
+- Carrier signal
+- AM modulated signal
+- Filtered output signal
 
 ## Block Diagram
 
@@ -32,18 +27,16 @@ The experiment includes:
 
 Amplitude Modulation changes the amplitude of a high-frequency carrier signal according to the message signal.
 
-The AM signal can be written as:
+AM equation:
 
-```math
-s(t) = A_c[1 + m(t)]\cos(2\pi f_c t)
-```
+s(t) = Ac [1 + m(t)] cos(2πfc t)
 
 where:
 
-* `s(t)` is the AM signal
-* `A_c` is the carrier amplitude
-* `m(t)` is the message signal
-* `f_c` is the carrier frequency
+- s(t) is the AM signal
+- Ac is the carrier amplitude
+- m(t) is the message signal
+- fc is the carrier frequency
 
 ## AM Signal Flow
 
@@ -61,10 +54,10 @@ This project shows a simple Frequency Modulation (FM) signal generated using Lab
 
 The experiment includes:
 
-* Message signal
-* Cosine carrier signal
-* Sine carrier signal
-* FM modulated signal
+- Message signal
+- Cosine carrier signal
+- Sine carrier signal
+- FM modulated signal
 
 ## Block Diagram
 
@@ -78,19 +71,17 @@ The experiment includes:
 
 Frequency Modulation changes the frequency of a carrier signal according to the message signal. In FM, the carrier amplitude remains almost constant, but the frequency changes based on the message signal.
 
-The FM signal can be written as:
+FM equation:
 
-```math
-s(t) = A_c \cos \left(2\pi f_c t + \beta \sin(2\pi f_m t)\right)
-```
+s(t) = Ac cos(2πfc t + beta sin(2πfm t))
 
 where:
 
-* `s(t)` is the FM signal
-* `A_c` is the carrier amplitude
-* `f_c` is the carrier frequency
-* `f_m` is the message frequency
-* `beta` is the modulation index
+- s(t) is the FM signal
+- Ac is the carrier amplitude
+- fc is the carrier frequency
+- fm is the message frequency
+- beta is the modulation index
 
 ## Result
 
@@ -100,4 +91,4 @@ The FM signal was successfully generated and displayed using LabVIEW.
 
 ## Software Used
 
-* LabVIEW
+- LabVIEW
