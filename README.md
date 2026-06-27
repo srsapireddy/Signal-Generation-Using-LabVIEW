@@ -24,5 +24,7 @@ Amplitude Modulation changes the amplitude of a high-frequency carrier signal ac
 
 The AM signal can be written as:
 
+<img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/bd5752bc-dfd8-4a09-b96a-ac147dedfe7b" />
+
 ```math
 s(t) = A_c[1 + m(t)]\cos(2\pi f_c t)
