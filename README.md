@@ -89,6 +89,58 @@ The FM signal was successfully generated and displayed using LabVIEW.
 
 ---
 
-## Software Used
+# PM Signal Generation in LabVIEW
 
-- LabVIEW
+This project shows a simple Phase Modulation (PM) signal generated using LabVIEW.
+
+The experiment includes:
+
+- Message signal
+- Cosine carrier signal
+- Sine carrier signal
+- Phase modulated signal
+- PM result waveform
+
+## Block Diagram
+
+<img width="1516" height="863" alt="image" src="https://github.com/user-attachments/assets/5bb1e483-0835-4e18-90b3-a9347d374d0f" />
+
+## Front Panel Output
+
+<img width="1471" height="797" alt="image" src="https://github.com/user-attachments/assets/f288bbd9-f7e4-4463-a06d-9a8130ed2266" />
+
+## Description
+
+Phase Modulation changes the phase of the carrier signal according to the message signal.
+
+In PM, the amplitude of the carrier remains almost constant, but the phase shifts based on the message signal.
+
+PM equation:
+
+s(t) = Ac cos(2πfc t + kp m(t))
+
+where:
+
+- s(t) is the PM signal
+- Ac is the carrier amplitude
+- fc is the carrier frequency
+- kp is the phase sensitivity
+- m(t) is the message signal
+
+If the message signal is:
+
+m(t) = sin(2πfm t)
+
+then the PM signal is:
+
+s(t) = Ac cos(2πfc t + kp sin(2πfm t))
+
+## LabVIEW Implementation
+
+In this LabVIEW design, the message signal is used to control the phase of the carrier signal.
+
+The cosine carrier and sine carrier components are combined with the message signal to generate the PM waveform. The final phase modulated signal is displayed using the PM Result waveform graph.
+
+## Result
+
+The PM signal was successfully generated and displayed using LabVIEW.
