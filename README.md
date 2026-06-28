@@ -144,3 +144,53 @@ The cosine carrier and sine carrier components are combined with the message sig
 ## Result
 
 The PM signal was successfully generated and displayed using LabVIEW.
+
+# ASK Signal Generation Using LabVIEW
+
+## Amplitude Shift Keying (ASK) Signal Generation in LabVIEW
+
+This project demonstrates the generation of an **Amplitude Shift Keying (ASK)** signal using LabVIEW.
+
+ASK is a digital modulation technique where the amplitude of the carrier signal changes according to the binary input data.
+
+In this project:
+
+- Binary input data is generated
+- A carrier signal is generated
+- The carrier is transmitted when the binary bit is `1`
+- The carrier is turned off when the binary bit is `0`
+- The ASK modulated waveform is displayed on the waveform chart
+
+---
+
+## Block Diagram
+
+The LabVIEW block diagram shows the implementation of ASK modulation.
+
+The binary data is generated using random values and compared with a threshold value.  
+Based on the binary value, the carrier signal is either passed or suppressed.
+
+<img width="1888" height="905" alt="image" src="https://github.com/user-attachments/assets/2d84ef24-9497-48ac-8647-eb1dd7873c5a" />
+
+---
+
+## Front Panel Output
+
+The front panel shows the generated ASK signal and the corresponding digital binary signal.
+
+<img width="1878" height="970" alt="image" src="https://github.com/user-attachments/assets/b2e728b9-64a6-4f81-b892-ba085c61e26f" />
+
+---
+
+## Working Principle
+
+Amplitude Shift Keying changes the amplitude of the carrier signal based on the binary input.
+
+For binary `1`, the carrier signal is present.
+
+For binary `0`, the carrier signal is absent.
+
+The ASK signal can be written as:
+
+```text
+ASK Signal = m(t) × Carrier Signal
